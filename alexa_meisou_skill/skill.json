@@ -1,0 +1,62 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "ja-JP": {
+          "summary": "瞑想のための音声を流します。",
+          "examplePhrases": [
+            "アレクサ、瞑想サプリを開いて",
+            "アレクサ、瞑想サプリで瞑想をはじめる",
+            "ヘルプ"
+          ],
+          "keywords": [
+            "健康",
+            "メンタル",
+            "人間関係",
+            "会話",
+            "瞑想",
+            "リフレッシュ",
+            "フィットネス"
+          ],
+          "name": "瞑想サプリ",
+          "description": "瞑想の中で一番効果があると言われている「慈悲の瞑想」を行えます。",
+          "smallIconUri": "file://assets/images/ja-JP_smallIconUri.png",
+          "largeIconUri": "file://assets/images/ja-JP_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [],
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "「アレクサ、瞑想サプリで瞑想する」と言ってください。",
+      "category": "HEALTH_AND_FITNESS",
+      "distributionCountries": [
+        "JP"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:112404459260:function:13b11f6d-b5df-4936-a597-8d3fa03ba26a:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "ja-JP": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
